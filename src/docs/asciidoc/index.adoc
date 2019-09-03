@@ -13,22 +13,18 @@ include::attributes.adoc[]
 :prewrap!:
 :stylesheet: stylesheets/hazelcast.css
 :toc: left
-:toc-title: Hazelcast IMDG {imdg-version} Reference Manual
+:toc-title: Hazelcast IMDG {imdg-version} Java Client Reference Manual
 :toclevels: 4
 :docinfo: shared
 
 image::logo_dark.png[Hazelcast IMDG,link=https://hazelcast.org/,window=_blank]
 
-== Hazelcast IMDG Reference Manual
+== Hazelcast IMDG Java Client Reference Manual
 Version {imdg-version}
-
-
-
-include::preface.adoc[]
 
 :numbered:
 
-include::revision_history.adoc[]
+include::introduction.adoc[]
 
 include::getting_started.adoc[]
 
@@ -79,8 +75,6 @@ include::osgi.adoc[]
 include::extending_hazelcast.adoc[]
 
 include::hazelcast_plugins.adoc[]
-
-include::consistency.adoc[]
 
 include::network_partitioning.adoc[]
 

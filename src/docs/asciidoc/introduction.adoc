@@ -1,0 +1,13 @@
+== Introduction
+
+Hazelcast Java client is the most full featured Hazelcast native client.
+It is offered both with Hazelcast IMDG and Hazelcast IMDG Enterprise.
+The main idea behind the Java client is to provide the same
+Hazelcast functionality by proxying each operation through a
+Hazelcast member. It can access and change distributed data and
+it can listen to the distributed events of an already established
+Hazelcast cluster from another Java application.
+
+Hundreds or even thousands of clients can be connected to the cluster.
+By default, there are "core count * 20" threads on the server side that
+handle all the requests, e.g., if the server has 4 cores, there will be 80 threads.
